@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400;500;600&family=VT323&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ff-principal: 'VT323', monospace;
+    --ff-secundaria: 'Roboto Mono', monospace;
+}
+
+body {
+    background-image: url('./img/backgroundImg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+main {    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh; 
+    justify-content: center;   
+    width: 50vw;   
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: #fff;    
+}
+
+.header-title {
+    font-family: var(--ff-principal);
+    font-size: 24px;    
+}
+
+.header-title button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+    font-family: var(--ff-principal); 
+    font-size: 18px;     
+    padding: 10px;
+    margin-left: 40%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.container-content {
+    text-align: center;
+    font-family: var(--ff-secundaria);    
+}
+
